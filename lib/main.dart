@@ -398,9 +398,9 @@ class ProductListPage extends StatelessWidget{
       itemCount: products.length,
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
-            mainAxisSpacing: 15,
-            crossAxisSpacing: 15,
-            childAspectRatio: 0.75,
+            mainAxisSpacing: 25,
+            crossAxisSpacing: 25,
+            childAspectRatio: 0.64,
           ),
           itemBuilder: (context,index){
         final product = products[index];
